@@ -2,13 +2,20 @@
 
 This is a python tool that looks for specific code in Virtamate files (.cs files inside .var files, and other loose .cs files).
 
+It can be used as a general tool to scan for specific things in virtamate mods code, in any folder. Both the folder and the searched for string can be modified in the config file. 
+
+For .dll files, you'll have to manually decompile them first like with [ILSpy](https://github.com/icsharpcode/ILSpy). You can drag a DLL in ILSpy, right-click on the dll in it and click Save Code. Then you can run the tool on the folder that has that code.
+
 
 ## DECEMBER 24 v2
 https://www.youtube.com/watch?v=XUEvborHsoI
+
 [DOWNLOAD](https://github.com/5PQR/VAMSEC/releases/download/December24v2/SPQR.VAMSEC.December24v2.zip)
 
 Tool updated for better results formatting and to speed it up. 
+
 Tool now also has a list of whitelisted strings which when found close to the searched text will get highlighted as green.
+
 Each result line will be marked as red or green depending if any whitelisted terms are found. This makes reading the results a little easier.
 
 
