@@ -8,7 +8,8 @@ For .dll files, you'll have to manually decompile them first like with [ILSpy](h
 
 
 ## DECEMBER 24 v2
-https://www.youtube.com/watch?v=XUEvborHsoI
+[YOUTUBE DEMO](https://www.youtube.com/watch?v=SDddjyxhLPY)![](https://i.imgur.com/PGzGGjU.jpeg)
+
 
 [DOWNLOAD](https://github.com/5PQR/VAMSEC/releases/download/December24v2/SPQR.VAMSEC.December24v2.zip)
 
@@ -20,7 +21,6 @@ Each result line will be marked as red or green depending if any whitelisted ter
 
 
 ## DECEMBER 24 v1
-https://www.youtube.com/watch?v=FxJb7NYmbss
 
 In December 2024 a security issue was reported and made public regarding the misuse of a certain function in Virtamate files. Since the security breach is public and many people know about it, I made this tool for my patreon supporters to be able to check vars to prevent having issues due to this security breach.
 
