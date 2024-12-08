@@ -1,10 +1,18 @@
 # VAMSEC
 
-
-
 This is a python tool that looks for specific code in Virtamate files (.cs files inside .var files, and other loose .cs files).
 
-## DECEMBER 24
+
+## DECEMBER 24 v2
+https://www.youtube.com/watch?v=XUEvborHsoI
+[DOWNLOAD](https://github.com/5PQR/VAMSEC/releases/download/December24v2/SPQR.VAMSEC.December24v2.zip)
+
+Tool updated for better results formatting and to speed it up. 
+Tool now also has a list of whitelisted strings which when found close to the searched text will get highlighted as green.
+Each result line will be marked as red or green depending if any whitelisted terms are found. This makes reading the results a little easier.
+
+
+## DECEMBER 24 v1
 https://www.youtube.com/watch?v=FxJb7NYmbss
 
 In December 2024 a security issue was reported and made public regarding the misuse of a certain function in Virtamate files. Since the security breach is public and many people know about it, I made this tool for my patreon supporters to be able to check vars to prevent having issues due to this security breach.
@@ -13,7 +21,7 @@ This script will look for that function and highlight the cases found where it's
 
 
 ## HOW TO USE
-1. Download the [latest zip from the releases](https://github.com/5PQR/VAMSEC/archive/refs/tags/December24.zip)
+1. Download the version you want, recommended the most recent
 2. Extract archive anywhere, but make sure the path DOESN'T have white spaces in it. Long story. "C:/New Folder" won't work, "C:/New_Folder" or C:/"NewFolder" will work.
 3. Right click and Edit the **config.py**  file in any text editor. Put the path to your VAM folder like in the example with two "\\\\" between folders. You can also put any folder that you want to check. The script will look everywhere in that folder for vars and cs files.
 4. Run  **VAMSec.December24.bat** and wait. Depending on your VAM size, it might take a long time! Maybe even hours for people with TB worth of mods
