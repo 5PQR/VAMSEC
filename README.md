@@ -6,6 +6,8 @@ It can be used as a general tool to scan for specific things in virtamate mods c
 
 For .dll files, you'll have to manually decompile them first like with [ILSpy](https://github.com/icsharpcode/ILSpy). You can drag a DLL in ILSpy, right-click on the dll in it and click Save Code. Then you can run the tool on the folder that has that code.
 
+***For other devs, feel free to fork, reuse or repurpose this script.***
+
 
 ## DECEMBER 24 v2
 [YOUTUBE DEMO](https://www.youtube.com/watch?v=SDddjyxhLPY)![](https://i.imgur.com/PGzGGjU.jpeg)
